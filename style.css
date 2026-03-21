@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     margin: 0 auto;
     padding-top: 1rem;
-    display: none;
+    /* display: none; */
 }
 .title{
     display: flex;
@@ -38,7 +38,7 @@ p{
     color: hsl(245, 15%, 58%);
     
 }
-.main-form h1{
+h1{
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin: 2rem 0 1rem 0;
@@ -119,6 +119,6 @@ label{
     bottom: 0;
     z-index: 0;
 }
-/* .card-none{
+.card-none{
     display: none;
-} */
+}
