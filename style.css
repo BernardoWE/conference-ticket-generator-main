@@ -106,7 +106,7 @@ label{
 .upload{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 11px;
 }
 .img-top{
     top: 5rem;
