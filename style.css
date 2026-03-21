@@ -122,3 +122,8 @@ label{
 .card-none{
     display: none;
 }
+.ticket{
+    background: url(assets/images/pattern-ticket.svg) center / cover no-repeat;;
+    width: 50vw;
+    height: 50vh;
+}

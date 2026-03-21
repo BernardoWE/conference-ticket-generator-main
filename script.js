@@ -3,7 +3,7 @@ const btnSubmit = document.querySelector('.btn')
 const ticket = document.querySelector('.main-ticket')
 const form = document.querySelector('.main-form')
 const fullName = document.querySelector('.full-name')
-console.log(fullName)
+const emailAdress = document.querySelector('.email-adress')
 
 
 form.addEventListener('submit', (event) =>{
@@ -12,7 +12,7 @@ form.addEventListener('submit', (event) =>{
     form.classList.add('card-none')
     ticket.classList.remove('card-none')
     const inputName = document.getElementById('nome')
-    console.log(inputName.value)
+    const inputEmail = document.getElementById('email')
     fullName.innerHTML = inputName.value
-    
+    emailAdress.innerHTML = inputEmail.value
 })
