@@ -14,8 +14,8 @@ body{
     position: relative;
 }
 .main-form{
-    width: 30vw;
-    min-width: 800px;
+    width: 40vw;
+    min-width: 700px;
     height: 100vh;
     display: flex; 
     justify-content: center;
@@ -122,8 +122,52 @@ label{
 .card-none{
     display: none;
 }
+.ticket-flex{
+    min-height: 100vh;
+    width: 30vw;
+    min-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+}
 .ticket{
-    background: url(assets/images/pattern-ticket.svg) center / cover no-repeat;;
-    width: 50vw;
-    height: 50vh;
+    background: url(assets/images/pattern-ticket.svg) center / cover no-repeat;
+    /* width: 30vw; */
+    width: 500px;
+    /* min-width: 300px; */
+    height: 240px;
+    /* margin: 0 auto; */
+    padding: 1.3rem;
+}
+.ticket-user{
+    height: 50%;
+    margin-top: 1.5rem
+}
+.ticket-coding{
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+    height: 50%;
+}
+.ticket-coding svg{
+    align-self: center;
+}
+.ticket h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: .3rem;
+    font-size: 2rem;
+
+}
+.full-name{
+    background: linear-gradient(90deg, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ticket-git{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
