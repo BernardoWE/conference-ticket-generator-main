@@ -193,3 +193,7 @@ label{
 .ticket-user img{
     border-radius: 10px;
 }
+.email-adress{
+    color: hsl(7, 86%, 67%);
+    
+}
